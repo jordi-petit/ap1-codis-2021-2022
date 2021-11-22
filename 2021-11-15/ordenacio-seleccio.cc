@@ -14,7 +14,7 @@ void write(const vector<int>& v)
 int posicio_minim(const vector<int>& v, int i)
 {
     int n = v.size();
-    int p = v[i];
+    int p = i;
     for (int j = i + 1; j < n; ++j) {
         if (v[j] < v[p]) {
             p = j;
