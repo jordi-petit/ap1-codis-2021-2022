@@ -10,8 +10,8 @@ using Conjunt = vector<bool>;
 using Sudoku = vector<vector<Conjunt>>;
 
 // Algunes constants
-Conjunt conjunt_ple = Conjunt(9, true);
-Conjunt conjunt_buit = Conjunt(9, false);
+const Conjunt conjunt_ple = Conjunt(9, true);
+const Conjunt conjunt_buit = Conjunt(9, false);
 
 // Crea un conjunt amb un sol element e.
 Conjunt conjunt_unitari(int e)
